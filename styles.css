@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Raleway:wght@200&family=Source+Sans+Pro&display=swap');
+
+body { margin:0; padding:0; outline:0; border:0; background:#000; color:rgba(255,255,255,0.75); font-size:15px; font-family:'Barlow', sans-serif; }
+h1, h2, h3, h4 { color:#a7c2d6; text-align:center; letter-spacing:2px; }
+h1 { font-size:45px; }
+h2 { margin:10rem 0 2.5rem; color:#fff; font-size:40px; text-transform:uppercase; }
+h3 { text-align:left; }
+h4 { text-transform:uppercase; }
+p { line-height:25px; }
+b { color:#a7c2d6; }
+blockquote { margin:2.5rem; text-align:center; }
+
+.banner { height:300px; }
+
+.main { margin:0 auto; width:900px; }
+
+.chara, .set { display:flex; }
+.concept { margin:10px; width:25%; background:rgba(51,51,64,0.5); }
+.concept img { display:block; width:100%; }
+.concept b, .concept span { padding:5px 10px; display:block; }
+
+.team { display:flex; width:100%; }
+.team div { margin:10px 20px; width:30%; color:#fff; }
+.team h3 { margin-bottom:5px; font-size:22px; text-transform:uppercase; }
+.team img { display:block; width:100%; }
+.team span { display:block; }
+
+.footer { margin-top:300px; text-align:center; }
+.footer p { margin:0; padding:20px; text-shadow:0 0 3px #a7c2d6; }
